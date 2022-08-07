@@ -1,0 +1,38 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "source": "src/app.ts",
+  "dependencies": {
+    "three": "^0.140.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmalyutindev/game.git"
+  },
+  "author": "Alex Malyutin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexmalyutindev/game/issues"
+  },
+  "homepage": "https://github.com/alexmalyutindev/game#readme",
+  "devDependencies": {
+    "@types/three": "^0.140.0",
+    "parcel": "^2.5.0",
+    "typescript": "^4.6.4"
+  },
+  "targets": {
+    "main": false,
+    "modern": {
+      "engines": {
+        "browsers": "Chrome 80"
+      }
+    }
+  }
+}
